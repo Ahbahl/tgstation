@@ -351,7 +351,7 @@
 	set category = "Object"
 	set name = "Toggle Open"
 
-	if(!usr.incapacitated())
+	if(usr.incapacitated())
 		return
 
 	if(iscarbon(usr) || issilicon(usr) || isdrone(usr))
